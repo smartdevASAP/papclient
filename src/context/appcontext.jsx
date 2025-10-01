@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 // Axios instance with backend base URL
 axios.defaults.withCredentials = true;
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://papserver-2.onrender.com";
 axios.defaults.baseURL = BASE_URL;
 
 // Provider component
